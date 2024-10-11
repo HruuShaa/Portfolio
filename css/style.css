@@ -136,8 +136,8 @@ body {
     }
     .main_son {
         padding-top: 120px;
-        height: 630px;
-        width: 1150px;
+        height: auto;
+        width: auto;
         display: block;
         justify-content: center;
         align-items: center;
@@ -153,5 +153,33 @@ body {
     }
     .menu {
         display: flex;
+    }
+    .main_son {
+        height: auto;
+        width: 400px;
+
+    }
+    .Contacts {
+        font-size: 20px;
+    }
+    .Contacts a {
+        padding-top: 20px;
+        color: rgb(219, 216, 197);
+        text-decoration: none;
+    }
+    .Contacts p {
+        margin-bottom: 0px;
+    }
+    .glav {
+        margin: 0;
+        font-size: 35px;
+    }
+    .img_main {
+        width: auto;
+        height: 500px;
+    }
+    .info {
+        margin: 20px;   
+     
     }
 }
